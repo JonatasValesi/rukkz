@@ -1,0 +1,72 @@
+@import url(font/PlayfairDisplay-BlackItalic.ttf);
+
+body {
+    background-color: #fff;
+    font-family: "PlayfairDisplay-BlackItalic.ttf", monospace;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+}
+
+.sidebar__navegation {
+    background-color: #f5f5f5 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.sidebar__navegation .logo {  
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navegation .logo img {
+    width: 25px;
+}
+
+.sidebar__navegation .menu {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.sidebar__navegation .menu a {
+    display: flex;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.sidebar__navegation .buscar {
+    background-color: #fff;
+    width: 180px;
+    border-radius: 500px;
+    border: 1px solid;
+    color: black;
+}
+.sidebar__navegation .buscar a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+main {
+    background-color: #5dfd009f;
+    font-family: "PlayfairDisplay-BlackItalic.ttf", monospace;
+    margin: 110px 0 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__notification {
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+@import url(font/PlayfairDisplay-BlackItalic.ttf);
+
+main {
+    background-color: #fff;
+    font-family: "PlayfairDisplay-BlackItalic.ttf", monospace;
+    margin: 110px 0 5px 0;
+    display: flex;
+    justify-content: center;
+}
+.main__navegation .tshirt {
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.main__navegation .tshirt img {
+    margin-left: 5px;
+    width:30px;
+}
+
+.main__navegation .tshirt__img {
+    margin-top: 10px;
+}
+
+.main__navegation .tshirt__img img {
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+}

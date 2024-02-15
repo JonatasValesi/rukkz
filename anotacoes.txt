@@ -1,0 +1,103 @@
+<div class="btninsta">
+    <a href="https://www.instagram.com/rukkzco/" target="_blank"><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a>
+</div>
+
+--------------------------------------
+
+<div class="btnwpp">
+    <a href="https://wa.me/5511942363926"  target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+</div>
+
+-------------------------------------
+
+<div class="container">
+        <img src="imagens/smile-rukkz.favicon.png" alt="">
+        <p> Rukkz co. </p>
+        <img src="imagens/macaco.preto.png" alt="">
+    </div>
+
+-------------------------------------
+css
+
+
+.btnwpp{
+    position:fixed;
+    width: 60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+
+-------------------------------------------
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position:fixed;
+  width: 60px;
+  height:130px;
+  bottom:40px;
+  right:40px;  
+  font-size: 60px;
+}
+
+
+
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+.sidebar__navegation {
+    background-color: #f5f5f5 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.sidebar__navegation .logo {  
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navegation .logo img {
+    width: 25px;
+}
+
+.sidebar__navegation .menu {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.sidebar__navegation .menu a {
+    display: flex;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.sidebar__navegation .buscar
+ {
+    background-color: #fff;
+    border-radius: 500px;
+    border: 1px solid;
+    color: black;
+}
